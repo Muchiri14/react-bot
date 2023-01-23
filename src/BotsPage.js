@@ -3,10 +3,9 @@ import BotArmy from "./BotArmy";
 import BotList from "./BotList";
 
 function BotsPage() {
-  //start here with your code for step one
   const [bots, setBots] = useState([]);
 
-  //a utility function to fetch data from the server
+  
   function fetchData() {
     return fetch(`http://localhost:3000/bots`)
       .then((resp) => resp.json())
@@ -14,12 +13,10 @@ function BotsPage() {
         setBots(data);
       });
   }
-  //run fetch whenever the page loads
+  
   useEffect(() => {
     fetchData();
   }, []);
-
-  //add bot to army when the bot is clicked
 
   function enlistBot(bot) {
     setBots(bots.map((b) => (b.id === bot.id ? { ...b, army: true } : b)));
