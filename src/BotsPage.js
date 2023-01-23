@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import YourBotArmy from "./YourBotArmy";
-import BotCollection from "./BotCollection";
+import BotArmy from "./BotArmy";
+import BotList from "./BotList";
 
 function BotsPage() {
   //start here with your code for step one
@@ -35,12 +35,12 @@ function BotsPage() {
   }
   return (
     <div>
-      <YourBotArmy
+      <BotArmy
         bots={bots.filter((b) => b.army)}
         removeBot={removeBot}
         deleteBot={deleteBot}
       />
-      <BotCollection bots={bots} enlistBot={enlistBot} deleteBot={deleteBot} />
+      <BotList bots={bots} enlistBot={enlistBot} deleteBot={deleteBot} />
     </div>
   );
 }
