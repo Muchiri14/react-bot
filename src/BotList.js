@@ -2,7 +2,7 @@ import React from "react";
 import BotCard from "./BotCard";
 
 function BotList({ bots, enlistBot, deleteBot }) {
-  // Your code here
+  
   const botItem = bots.map((bot) => {
     return (
       <BotCard

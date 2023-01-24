@@ -2,7 +2,7 @@ import React from "react";
 import BotCard from "./BotCard";
 
 function BotArmy({ bots, removeBot, deleteBot }) {
-  //your bot army code here...
+  
   const armyItem = bots.map((bot) => {
     return (
       <BotCard
