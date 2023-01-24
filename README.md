@@ -1,4 +1,4 @@
-# React Immersive Code Challenge: Bot Battlr
+# Code Challenge: Bot Battlr
 
 This is a code challenge that entailed developing a web app that will allow them to browse through
 a list of robots, view a robot's details, and, enlist a bot into their army.
