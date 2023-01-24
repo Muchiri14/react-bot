@@ -1,6 +1,6 @@
 # Code Challenge: Bot Battlr
 
-This is a code challenge that entailed developing a web app that will allow them to browse through
+This is a code challenge that entailed developing a web app that will allow one to browse through
 a list of robots, view a robot's details, and, enlist a bot into their army.
 
 ## Instructions
@@ -22,9 +22,9 @@ After unbundling the project:
 2. Run `npm run server`. This will run your backend on port `3000`.
 3. In a new terminal, run `npm start`.
 
-Make sure to open [http://localhost:3000/bots] in the browser to verify that your backend is working before you proceed!
+Make sure to open [https://json-server-peach.vercel.app/bots] in the browser to verify that your backend is working before you proceed!
 
-The base URL for your backend is: `http://localhost:3000/bots`
+The base URL for your backend is: `https://json-server-peach.vercel.app/bots`
 
 
 ## Core Deliverables
